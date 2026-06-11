@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls:*)", "Bash(cat:*)", "Bash(head:*)", "Bash(tail:*)",
+      "Bash(grep:*)", "Bash(rg:*)", "Bash(find:*)", "Bash(wc:*)",
+      "Bash(mkdir:*)", "Bash(cp:*)", "Bash(mv:*)",
+      "Bash(git status:*)", "Bash(git log:*)", "Bash(git diff:*)",
+      "Bash(git add:*)", "Bash(git commit:*)", "Bash(git init:*)",
+      "Bash(node:*)", "Bash(npm run:*)", "Bash(npm install:*)", "Bash(npx:*)",
+      "Bash(python3:*)", "Bash(pip install:*)",
+      "Read(~/**)", "Edit(~/projects/**)", "Write(~/projects/**)",
+      "Edit(~/vault/**)", "Write(~/vault/**)"
+    ],
+    "deny": [
+      "Read(~/.claude/settings.json)",
+      "Bash(sudo:*)"
+    ]
+  }
+}
